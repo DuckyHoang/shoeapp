@@ -1,8 +1,9 @@
+// trang chủ + phần tách làm riêng
 import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:shopshoe/widgets/banner_widget.dart';
 import 'package:shopshoe/widgets/brand_highlights.dart';
-import 'package:shopshoe/widgets/category_widget.dart';
+import 'package:shopshoe/widgets/category/category_widget.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({ Key? key }) : super(key: key);
